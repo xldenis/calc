@@ -1,0 +1,12 @@
+[package]
+name = "calc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+chumsky = { version =  "1.0.0-alpha.6", features = ["pratt", "label"], git = "https://github.com/zesterer/chumsky"}
+ariadne = "0.4"
+rust_decimal = "1.34"
